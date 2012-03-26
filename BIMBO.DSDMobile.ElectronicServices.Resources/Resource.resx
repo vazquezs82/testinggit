@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Btn_BackwardsArrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_backwardsarrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_BackwardsArrow_focused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_backwardsarrow_focused.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_BackwardsArrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_backwardsarrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_back_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_back_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_ForwardArrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_forwardarrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_ForwardArrow_focused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_forwardarrow_focused.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_ForwardArrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_forwardarrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_forward_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\btn_forward_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mandatory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\mandatory.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operations_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\operations_focus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operations_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\operations_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Optional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\optional.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\reports_focus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\reports_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL_CREATE_HHc_CargosSE" xml:space="preserve">
+    <value>create table HHc_CargosSE
+(
+ID_RUTA 	 varchar(4)	 not null,
+ID_CARGO         integer         not null,
+MONTO_COMISION   integer         not null,
+MINIMO           integer         not null,
+MAXIMO           integer         not null,
+IVA_COMISION     float           not null,
+constraint       PK_HHc_CargosSE primary key(ID_RUTA, ID_CARGO)
+)</value>
+    <comment>Crea la tabla de Cargos Servicios Electronicos</comment>
+  </data>
+  <data name="SQL_CREATE_HHc_RecoleccionesSE" xml:space="preserve">
+    <value>create table HHc_RecoleccionesSE
+(
+ID_RUTA                        varchar(4)    not null,
+ID_CLIENTE                   varchar(15)   not null,
+FECHA                     date          not null,
+HORA                       time          not null,
+PIN_DINAMICO     varchar(30)   null,
+PIN_TRANS        varchar(30)   null,
+MONTO            int           not null,
+CARGO            int           null,
+STATUS           int           not null,
+IMPRESO          int           not null,
+constraint       PK_HHc_RecoleccionesSE primary key(ID_RUTA, ID_CLIENTE)
+)</value>
+    <comment>Crea la tabla de Recolecciones Servicios Electronicos</comment>
+  </data>
+  <data name="tab_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\tab_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_failed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\task_failed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_inprogress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\task_inprogress.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_succeeded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\task_succeeded.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblCollectedAmount" xml:space="preserve">
+    <value>Monto a Recolectar:</value>
+  </data>
+  <data name="MessageBoxHeader" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="rb1" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="rbBack" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="rb11" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="rbNext" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="rb2" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="rb3" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="rb4" xml:space="preserve">
+    <value>800</value>
+  </data>
+  <data name="rb5" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="rb6" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="rb7" xml:space="preserve">
+    <value>1400</value>
+  </data>
+  <data name="rb8" xml:space="preserve">
+    <value>1600</value>
+  </data>
+  <data name="rb9" xml:space="preserve">
+    <value>1800</value>
+  </data>
+  <data name="MSG_CONFIRMACION" xml:space="preserve">
+    <value>Desea Salir?</value>
+  </data>
+  <data name="msg_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msg_NoDecimales" xml:space="preserve">
+    <value>El monto no puede tener decimales</value>
+  </data>
+  <data name="msg_NoLetras" xml:space="preserve">
+    <value>El monto SE no puede ser alfanumerico</value>
+  </data>
+  <data name="msg_MontoVacio" xml:space="preserve">
+    <value>El monto SE no puede estar vacio</value>
+  </data>
+  <data name="msg_ConfirmacionIncorrecta" xml:space="preserve">
+    <value>Confirmacion de Monto Incorrecta!!!</value>
+  </data>
+  <data name="msg_MontoCero" xml:space="preserve">
+    <value>El monto SE no puede ser cero</value>
+  </data>
+  <data name="msg_MontoMenorCero" xml:space="preserve">
+    <value>El monto SE no puede ser menor a cero</value>
+  </data>
+  <data name="msg_MontoMaximoCliente" xml:space="preserve">
+    <value>Excede Monto maximo SE para este cliente, monto disponible</value>
+  </data>
+  <data name="msg_ExcedeMontoRuta" xml:space="preserve">
+    <value>Excede Monto maximo SE por Ruta, monto disponible</value>
+  </data>
+  <data name="SQL_GET_COLLECTION_X_ROUTE" xml:space="preserve">
+    <value>SELECT ISNULL(CONVERT(int, valor), 0)
+FROM HHc_Configuraciones
+WHERE ID_RUTA = ?
+AND PARAMETRO = 'IMP_SE_RUTA'</value>
+    <comment>Obtiene el Monto de Recoleccion por Ruta</comment>
+  </data>
+  <data name="SQL_GET_TOTAL_COLLECTED_AMOUNT" xml:space="preserve">
+    <value>SELECT ISNULL(SUM(MONTO) + SUM(CARGO),0)  FROM HHc_RecoleccionesSE</value>
+    <comment>Obtiene el Monto Total Recolectado al Momento</comment>
+  </data>
+  <data name="SQL_GET_AMOUNT_X_CLIENT" xml:space="preserve">
+    <value>SELECT ISNULL(CONVERT(int, IMP_SE_CLIENTE), 0)
+FROM HHc_Clientes 
+WHERE ID_CLIENTE = ?</value>
+  </data>
+  <data name="SQL_GET_COLLECTION_X_CLIENT" xml:space="preserve">
+    <value>SELECT ISNULL(COUNT(*), 0)
+FROM HHc_RecoleccionesSE 
+WHERE ID_CLIENTE = ?</value>
+  </data>
+  <data name="MSG_DESEA_RECOLECCION" xml:space="preserve">
+    <value>Desea hacer Recoleccion?</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL_INSERT_RECOLECCCIONES_SE" xml:space="preserve">
+    <value>INSERT INTO HHc_RecoleccionesSE VALUES 
+(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <data name="SQL_GET_COORDENADAS_VALUES" xml:space="preserve">
+    <value>SELECT ID_DATO,RENGLON,COLUMNA,ALINEACION,ES_DETALLE,FORMATO from HHc_Coordenadas WHERE ID_TIPO_DOCUMENTO=? ORDER BY RENGLON</value>
+  </data>
+  <data name="STR_NO_REPORTE" xml:space="preserve">
+    <value>1800</value>
+  </data>
+  <data name="MSG_AGENCIA" xml:space="preserve">
+    <value>AGENCIA:</value>
+  </data>
+  <data name="MSG_ASTERISCOS" xml:space="preserve">
+    <value>***********************************</value>
+  </data>
+  <data name="MSG_ASTERISCOS_2" xml:space="preserve">
+    <value>***********************************</value>
+  </data>
+  <data name="MSG_CARGO" xml:space="preserve">
+    <value>CARGO POR SERVICIO</value>
+  </data>
+  <data name="MSG_CLIENTE" xml:space="preserve">
+    <value>CLIENTE:</value>
+  </data>
+  <data name="MSG_COL1" xml:space="preserve">
+    <value>COL 1.</value>
+  </data>
+  <data name="MSG_COL2" xml:space="preserve">
+    <value>COL 2.</value>
+  </data>
+  <data name="MSG_COL3" xml:space="preserve">
+    <value>COL 3.</value>
+  </data>
+  <data name="MSG_FECHA" xml:space="preserve">
+    <value>FECHA:</value>
+  </data>
+  <data name="MSG_HORA" xml:space="preserve">
+    <value>HORA:</value>
+  </data>
+  <data name="MSG_IVA_X_CARGO" xml:space="preserve">
+    <value>IVA X CARGO</value>
+  </data>
+  <data name="MSG_LEYENDA_BLM" xml:space="preserve">
+    <value>GRACIAS POR UTILIZAR ESTE SERVICIO!!!</value>
+  </data>
+  <data name="MSG_MONTO_ABONAR" xml:space="preserve">
+    <value>MONTO ABONADO:</value>
+  </data>
+  <data name="MSG_MONTO_RECOLECTADO" xml:space="preserve">
+    <value>MONTO RECOLECTADO</value>
+  </data>
+  <data name="MSG_NO_CLIENTE" xml:space="preserve">
+    <value>NO. CLIENTE:</value>
+  </data>
+  <data name="MSG_RUTA" xml:space="preserve">
+    <value>RUTA:</value>
+  </data>
+  <data name="MSG_TITULO_FIRMA" xml:space="preserve">
+    <value>FIRMA ELECTRONICA</value>
+  </data>
+  <data name="RPT_FIRMA_ELECTRONICA" xml:space="preserve">
+    <value>Firma Electronica</value>
+  </data>
+  <data name="SQL_GET_CARGO" xml:space="preserve">
+    <value>SELECT ISNULL(MONTO_COMISION, 0)
+FROM HHc_CargosSE  
+WHERE MAXIMO &gt;= ?
+AND MINIMO&lt;= ?</value>
+  </data>
+  <data name="SQL_GET_IVA_X_CARGO" xml:space="preserve">
+    <value>SELECT ISNULL(IVA_COMISION, 0)
+FROM HHc_CargosSE  
+WHERE MAXIMO &gt;= ?
+AND MINIMO&lt;= ?</value>
+  </data>
+  <data name="SQL_GET_MOSTRAR_IVAXCARGO" xml:space="preserve">
+    <value>SELECT ISNULL(CONVERT(int, valor), 0)
+FROM HHc_Configuraciones
+WHERE ID_RUTA = ?
+AND PARAMETRO = 'APLICA_IVA_SE'</value>
+  </data>
+  <data name="SQL_GET_PIN_TRANS" xml:space="preserve">
+    <value>SELECT ISNULL(CONVERT(int, valor), 0)
+FROM HHc_Configuraciones
+WHERE ID_RUTA = ?
+AND PARAMETRO = 'APLICA_PIN_TRANS'</value>
+  </data>
+  <data name="lblCodigoBarras" xml:space="preserve">
+    <value>Codigo de Barras</value>
+  </data>
+  <data name="lblLeyenda1" xml:space="preserve">
+    <value>Favor de Escanear el Codigo de Barras</value>
+  </data>
+  <data name="lblLeyenda2" xml:space="preserve">
+    <value>generado por la TPV!!!!!</value>
+  </data>
+  <data name="MSG_ADVERTENCIA" xml:space="preserve">
+    <value>ADVERTENCIA!!!!!\nSe registrara la excepción?</value>
+  </data>
+  <data name="MSG_CODIGO_ERRONEO" xml:space="preserve">
+    <value>Codigo Erroneo</value>
+  </data>
+  <data name="MSG_BARCODE_EMPTY" xml:space="preserve">
+    <value>Falta Codigo de Barras</value>
+  </data>
+  <data name="SQL_UPDATE_RECOLECCIONES_SE" xml:space="preserve">
+    <value>UPDATE HHc_RecoleccionesSE SET PIN_TRANS = ?,  STATUS = ? WHERE ID_CLIENTE = ?</value>
+  </data>
+  <data name="SQL_UPDATE_IMPRESO" xml:space="preserve">
+    <value>UPDATE HHc_RecoleccionesSE SET IMPRESO = ? WHERE ID_CLIENTE = ?</value>
+  </data>
+  <data name="msg_information" xml:space="preserve">
+    <value>Informacion</value>
+  </data>
+  <data name="SQL_GET_PENDING" xml:space="preserve">
+    <value>SELECT ISNULL(COUNT(*),0) FROM 
+HHc_RecoleccionesSE 
+WHERE ID_CLIENTE= ? AND IMPRESO = 0</value>
+  </data>
+  <data name="STR_NO_REPORTE_LIQ" xml:space="preserve">
+    <value>1900</value>
+  </data>
+  <data name="SQL_GET_LIQ_INFO" xml:space="preserve">
+    <value>SELECT SUM(MONTO), SUM(CARGO), (SUM(MONTO) + SUM(CARGO)) , COUNT(ID_CLIENTE) 
+FROM  HHc_RecoleccionesSE</value>
+  </data>
+  <data name="MSG_TICKET_LIQ_LEYENDA" xml:space="preserve">
+    <value>****** RECOLECCIONES SE*******</value>
+  </data>
+  <data name="MSG_TICKET_LIQ_CARGO" xml:space="preserve">
+    <value>CARGO POR SERVICIO:</value>
+  </data>
+  <data name="MSG_TICKET_LIQ_MONTO" xml:space="preserve">
+    <value>MONTO RECOLECTADO:</value>
+  </data>
+  <data name="MSG_TICKET_LIQ_TOTAL" xml:space="preserve">
+    <value>MONTO TOTAL RECOLECTADO:</value>
+  </data>
+  <data name="MSG_TICKET_LIQ_TRANSACCIONES" xml:space="preserve">
+    <value>NO. DE TRANSACCIONES:</value>
+  </data>
+  <data name="SQL_GET_COLLECTION_CLIENT_DATA" xml:space="preserve">
+    <value>SELECT ID_RUTA, FECHA, HORA,PIN_DINAMICO, MONTO, CARGO,  IMPRESO 
+FROM HHc_RecoleccionesSE 
+WHERE ID_CLIENTE = ?</value>
+  </data>
+  <data name="SQL_ALTER_HHc_Clientes" xml:space="preserve">
+    <value>ALTER TABLE HHc_Clientes ADD IMP_SE_CLIENTE INT DEFAULT 0</value>
+    <comment>*</comment>
+  </data>
+  <data name="SQL_EXIST_IMP_SE_CLIENTE" xml:space="preserve">
+    <value>select count(*)
+from systable a inner join syscolumn b
+on a.object_id = b.table_id
+where a.table_name ='HHc_Clientes'
+and b.column_name = 'IMP_SE_CLIENTE'</value>
+  </data>
+  <data name="hlbConfirmacion" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="hlbFirmaElectronica" xml:space="preserve">
+    <value>Firma Electronica</value>
+  </data>
+  <data name="hlbRecoleccion" xml:space="preserve">
+    <value>Recolección</value>
+  </data>
+  <data name="msg_CargoMinusculas" xml:space="preserve">
+    <value>Cargo por Servicio:</value>
+  </data>
+  <data name="msg_MontoAbonarMinus" xml:space="preserve">
+    <value>Monto Abonar:</value>
+  </data>
+  <data name="msg_MontoRecolectadoMinus" xml:space="preserve">
+    <value>Monto Recolectado:</value>
+  </data>
+  <data name="MSG_LEYENDA_BLM1" xml:space="preserve">
+    <value>PARA DUDAS O ACLARACIONES DE ESTA</value>
+  </data>
+  <data name="MSG_LEYENDA_BLM2" xml:space="preserve">
+    <value>OPERACION, FAVOR DE LLAMAR AL </value>
+  </data>
+  <data name="MSG_LEYENDA_BLM3" xml:space="preserve">
+    <value>CENTRO DE ATENCION A CLIENTES</value>
+  </data>
+  <data name="MSG_LEYENDA_BLM4" xml:space="preserve">
+    <value>01 800 681 9622 LADA SIN COSTO</value>
+  </data>
+
+</root>
